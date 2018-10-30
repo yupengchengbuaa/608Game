@@ -57,6 +57,34 @@
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
+		7D12999721888DA900E97CD0 /* GameConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D12999521888DA900E97CD0 /* GameConfig.cpp */; };
+		7D12999821888DA900E97CD0 /* GameConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D12999521888DA900E97CD0 /* GameConfig.cpp */; };
+		7D12999B21888E9E00E97CD0 /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D12999921888E9E00E97CD0 /* StringUtil.cpp */; };
+		7D12999C21888E9E00E97CD0 /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D12999921888E9E00E97CD0 /* StringUtil.cpp */; };
+		7D12A0A62188920100E97CD0 /* pack_unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AF12188920000E97CD0 /* pack_unpack.c */; };
+		7D12A0A72188920100E97CD0 /* pack_unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AF12188920000E97CD0 /* pack_unpack.c */; };
+		7D12A0A82188920100E97CD0 /* jansson_config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 7D129AF32188920000E97CD0 /* jansson_config.h.in */; };
+		7D12A0A92188920100E97CD0 /* jansson_config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 7D129AF32188920000E97CD0 /* jansson_config.h.in */; };
+		7D12A0AA2188920100E97CD0 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AF42188920000E97CD0 /* memory.c */; };
+		7D12A0AB2188920100E97CD0 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AF42188920000E97CD0 /* memory.c */; };
+		7D12A0AC2188920100E97CD0 /* strconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AF52188920000E97CD0 /* strconv.c */; };
+		7D12A0AD2188920100E97CD0 /* strconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AF52188920000E97CD0 /* strconv.c */; };
+		7D12A0AE2188920100E97CD0 /* json_process.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AF82188920000E97CD0 /* json_process.c */; };
+		7D12A0AF2188920100E97CD0 /* json_process.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AF82188920000E97CD0 /* json_process.c */; };
+		7D12A0B02188920100E97CD0 /* strbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFA2188920000E97CD0 /* strbuffer.c */; };
+		7D12A0B12188920100E97CD0 /* strbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFA2188920000E97CD0 /* strbuffer.c */; };
+		7D12A0B22188920100E97CD0 /* dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFB2188920000E97CD0 /* dump.c */; };
+		7D12A0B32188920100E97CD0 /* dump.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFB2188920000E97CD0 /* dump.c */; };
+		7D12A0B42188920100E97CD0 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFC2188920000E97CD0 /* error.c */; };
+		7D12A0B52188920100E97CD0 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFC2188920000E97CD0 /* error.c */; };
+		7D12A0B62188920100E97CD0 /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFD2188920000E97CD0 /* hashtable.c */; };
+		7D12A0B72188920100E97CD0 /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFD2188920000E97CD0 /* hashtable.c */; };
+		7D12A0B82188920100E97CD0 /* utf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFE2188920000E97CD0 /* utf.c */; };
+		7D12A0B92188920100E97CD0 /* utf.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129AFE2188920000E97CD0 /* utf.c */; };
+		7D12A0BA2188920100E97CD0 /* load.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129B012188920000E97CD0 /* load.c */; };
+		7D12A0BB2188920100E97CD0 /* load.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129B012188920000E97CD0 /* load.c */; };
+		7D12A0BC2188920100E97CD0 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129B022188920000E97CD0 /* value.c */; };
+		7D12A0BD2188920100E97CD0 /* value.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D129B022188920000E97CD0 /* value.c */; };
 		7D6DA92421854F4C00679D60 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA92021854F4C00679D60 /* HelloWorldScene.cpp */; };
 		7D6DA92521854F4C00679D60 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA92021854F4C00679D60 /* HelloWorldScene.cpp */; };
 		7D6DA92621854F4C00679D60 /* MapScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D6DA92221854F4C00679D60 /* MapScene.cpp */; };
@@ -159,6 +187,31 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7D12999221888AFE00E97CD0 /* CommonMacros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CommonMacros.hpp; path = ../Common/CommonMacros.hpp; sourceTree = "<group>"; };
+		7D12999521888DA900E97CD0 /* GameConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GameConfig.cpp; path = ../Common/GameConfig.cpp; sourceTree = "<group>"; };
+		7D12999621888DA900E97CD0 /* GameConfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GameConfig.hpp; path = ../Common/GameConfig.hpp; sourceTree = "<group>"; };
+		7D12999921888E9E00E97CD0 /* StringUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StringUtil.cpp; path = ../Common/StringUtil.cpp; sourceTree = "<group>"; };
+		7D12999A21888E9E00E97CD0 /* StringUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = StringUtil.hpp; path = ../Common/StringUtil.hpp; sourceTree = "<group>"; };
+		7D12999E21888F0B00E97CD0 /* SingletonTemplate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SingletonTemplate.hpp; path = ../Common/SingletonTemplate.hpp; sourceTree = "<group>"; };
+		7D129AF12188920000E97CD0 /* pack_unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pack_unpack.c; sourceTree = "<group>"; };
+		7D129AF22188920000E97CD0 /* jansson_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_config.h; sourceTree = "<group>"; };
+		7D129AF32188920000E97CD0 /* jansson_config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jansson_config.h.in; sourceTree = "<group>"; };
+		7D129AF42188920000E97CD0 /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
+		7D129AF52188920000E97CD0 /* strconv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strconv.c; sourceTree = "<group>"; };
+		7D129AF62188920000E97CD0 /* jansson_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson_private.h; sourceTree = "<group>"; };
+		7D129AF72188920000E97CD0 /* hashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashtable.h; sourceTree = "<group>"; };
+		7D129AF82188920000E97CD0 /* json_process.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = json_process.c; sourceTree = "<group>"; };
+		7D129AF92188920000E97CD0 /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		7D129AFA2188920000E97CD0 /* strbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strbuffer.c; sourceTree = "<group>"; };
+		7D129AFB2188920000E97CD0 /* dump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dump.c; sourceTree = "<group>"; };
+		7D129AFC2188920000E97CD0 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		7D129AFD2188920000E97CD0 /* hashtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashtable.c; sourceTree = "<group>"; };
+		7D129AFE2188920000E97CD0 /* utf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utf.c; sourceTree = "<group>"; };
+		7D129AFF2188920000E97CD0 /* json_process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_process.h; sourceTree = "<group>"; };
+		7D129B002188920000E97CD0 /* jansson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jansson.h; sourceTree = "<group>"; };
+		7D129B012188920000E97CD0 /* load.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = load.c; sourceTree = "<group>"; };
+		7D129B022188920000E97CD0 /* value.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
+		7D129B032188920000E97CD0 /* strbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strbuffer.h; sourceTree = "<group>"; };
 		7D6DA92021854F4C00679D60 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Scene/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		7D6DA92121854F4C00679D60 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Scene/HelloWorldScene.h; sourceTree = "<group>"; };
 		7D6DA92221854F4C00679D60 /* MapScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MapScene.cpp; path = Scene/MapScene.cpp; sourceTree = "<group>"; };
@@ -313,10 +366,11 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7D6DA93821859C5000679D60 /* Common */,
-				7D6DA9292185958C00679D60 /* UI */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
+				7D6DA93821859C5000679D60 /* Common */,
+				7D6DA9292185958C00679D60 /* UI */,
+				7D129AF02188920000E97CD0 /* jansson */,
 				7D6DA90F21854D8000679D60 /* Scene */,
 			);
 			name = Classes;
@@ -370,6 +424,32 @@
 			path = ios;
 			sourceTree = SOURCE_ROOT;
 		};
+		7D129AF02188920000E97CD0 /* jansson */ = {
+			isa = PBXGroup;
+			children = (
+				7D129AF12188920000E97CD0 /* pack_unpack.c */,
+				7D129AF22188920000E97CD0 /* jansson_config.h */,
+				7D129AF32188920000E97CD0 /* jansson_config.h.in */,
+				7D129AF42188920000E97CD0 /* memory.c */,
+				7D129AF52188920000E97CD0 /* strconv.c */,
+				7D129AF62188920000E97CD0 /* jansson_private.h */,
+				7D129AF72188920000E97CD0 /* hashtable.h */,
+				7D129AF82188920000E97CD0 /* json_process.c */,
+				7D129AF92188920000E97CD0 /* utf.h */,
+				7D129AFA2188920000E97CD0 /* strbuffer.c */,
+				7D129AFB2188920000E97CD0 /* dump.c */,
+				7D129AFC2188920000E97CD0 /* error.c */,
+				7D129AFD2188920000E97CD0 /* hashtable.c */,
+				7D129AFE2188920000E97CD0 /* utf.c */,
+				7D129AFF2188920000E97CD0 /* json_process.h */,
+				7D129B002188920000E97CD0 /* jansson.h */,
+				7D129B012188920000E97CD0 /* load.c */,
+				7D129B022188920000E97CD0 /* value.c */,
+				7D129B032188920000E97CD0 /* strbuffer.h */,
+			);
+			path = jansson;
+			sourceTree = "<group>";
+		};
 		7D6DA90F21854D8000679D60 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
@@ -405,6 +485,12 @@
 			children = (
 				7D6DA93B21859D1100679D60 /* Utility.cpp */,
 				7D6DA93A21859D1100679D60 /* Utility.hpp */,
+				7D12999221888AFE00E97CD0 /* CommonMacros.hpp */,
+				7D12999521888DA900E97CD0 /* GameConfig.cpp */,
+				7D12999621888DA900E97CD0 /* GameConfig.hpp */,
+				7D12999921888E9E00E97CD0 /* StringUtil.cpp */,
+				7D12999A21888E9E00E97CD0 /* StringUtil.hpp */,
+				7D12999E21888F0B00E97CD0 /* SingletonTemplate.hpp */,
 			);
 			name = Common;
 			path = "New Group2";
@@ -525,6 +611,7 @@
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				7D12A0A82188920100E97CD0 /* jansson_config.h.in in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
@@ -540,6 +627,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D12A0A92188920100E97CD0 /* jansson_config.h.in in Resources */,
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
@@ -558,13 +646,26 @@
 			files = (
 				7D6DA93C21859D1100679D60 /* Utility.cpp in Sources */,
 				7D6DA9402185D85200679D60 /* SimpleButton.cpp in Sources */,
+				7D12999B21888E9E00E97CD0 /* StringUtil.cpp in Sources */,
+				7D12A0BA2188920100E97CD0 /* load.c in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				7D6DA92D2185960300679D60 /* BaseButton.cpp in Sources */,
+				7D12A0B22188920100E97CD0 /* dump.c in Sources */,
+				7D12A0B62188920100E97CD0 /* hashtable.c in Sources */,
 				7D6DA92421854F4C00679D60 /* HelloWorldScene.cpp in Sources */,
+				7D12A0B82188920100E97CD0 /* utf.c in Sources */,
+				7D12A0A62188920100E97CD0 /* pack_unpack.c in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				7D12A0B02188920100E97CD0 /* strbuffer.c in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				7D12A0B42188920100E97CD0 /* error.c in Sources */,
+				7D12A0BC2188920100E97CD0 /* value.c in Sources */,
+				7D12999721888DA900E97CD0 /* GameConfig.cpp in Sources */,
+				7D12A0AA2188920100E97CD0 /* memory.c in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				7D12A0AC2188920100E97CD0 /* strconv.c in Sources */,
 				7D6DA92621854F4C00679D60 /* MapScene.cpp in Sources */,
+				7D12A0AE2188920100E97CD0 /* json_process.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,13 +673,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D12A0B72188920100E97CD0 /* hashtable.c in Sources */,
 				7D6DA9412185D85200679D60 /* SimpleButton.cpp in Sources */,
+				7D12A0B12188920100E97CD0 /* strbuffer.c in Sources */,
 				7D6DA93D21859D1100679D60 /* Utility.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				7D12A0B92188920100E97CD0 /* utf.c in Sources */,
 				7D6DA92721854F4C00679D60 /* MapScene.cpp in Sources */,
+				7D12A0B32188920100E97CD0 /* dump.c in Sources */,
 				7D6DA92E2185960300679D60 /* BaseButton.cpp in Sources */,
+				7D12A0BB2188920100E97CD0 /* load.c in Sources */,
+				7D12A0AB2188920100E97CD0 /* memory.c in Sources */,
+				7D12A0A72188920100E97CD0 /* pack_unpack.c in Sources */,
+				7D12A0BD2188920100E97CD0 /* value.c in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				7D12A0B52188920100E97CD0 /* error.c in Sources */,
+				7D12999C21888E9E00E97CD0 /* StringUtil.cpp in Sources */,
 				7D6DA92521854F4C00679D60 /* HelloWorldScene.cpp in Sources */,
+				7D12A0AD2188920100E97CD0 /* strconv.c in Sources */,
+				7D12A0AF2188920100E97CD0 /* json_process.c in Sources */,
+				7D12999821888DA900E97CD0 /* GameConfig.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

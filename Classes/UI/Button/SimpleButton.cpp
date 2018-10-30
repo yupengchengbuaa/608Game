@@ -49,9 +49,11 @@ bool SimpleButton::init(ButtonType type, const string& text)
     
     m_pSprite = Sprite::create("CloseNormal.png");
     
+    Size sz = m_pSprite->getContentSize();
     m_pContainer->addChild(m_pSprite);
+    m_pContainer->setPosition(sz.width/2, sz.height/2);
     
-    setContentSize(m_pSprite->getContentSize());
+    setContentSize(sz);
     
     m_pLabel = Label::createWithTTF(text, fontName, 24);
     
@@ -69,9 +71,12 @@ bool SimpleButton::init(const string& normalPngRes, const string& selectedPngRes
     
     m_pSprite = Sprite::create(normalPngRes);
     
-    m_pContainer->addChild(m_pSprite);
+    Size sz = m_pSprite->getContentSize();
     
-    setContentSize(m_pSprite->getContentSize());
+    m_pContainer->addChild(m_pSprite);
+    m_pContainer->setPosition(sz.width/2, sz.height/2);
+    
+    setContentSize(sz);
     
     //检查selectedPngRes有效性
     

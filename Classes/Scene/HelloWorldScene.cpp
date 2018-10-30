@@ -52,10 +52,10 @@ bool HelloWorld::init()
     pButton->setPosition(200, 200);
     this->addChild(pButton);
     
-    pButton->setTouchCallback([]{
-        auto scene = MapLayer::createScene();
-        Director::getInstance()->replaceScene(scene);
-    });
+//    pButton->setTouchCallback([]{
+//        auto scene = MapLayer::createScene();
+//        Director::getInstance()->replaceScene(scene);
+//    });
     
     return true;
 }
