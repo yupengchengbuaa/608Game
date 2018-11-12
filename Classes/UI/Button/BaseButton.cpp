@@ -124,3 +124,8 @@ void BaseButton::toggleTouchListener(bool enable)
 {
     m_pTouchListener->setEnabled(enable);
 }
+
+void BaseButton::setTouchCallback(const std::function<void()>& callback)
+{
+    m_touchCallback = callback;
+}

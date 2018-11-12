@@ -13,7 +13,7 @@
 class BaseButton : public cocos2d::Node
 {
 public:
-    void setTouchCallback(std::function<void()> callback);
+    void setTouchCallback(const std::function<void()>& callback);
     void toggleTouchListener(bool enable);
     
     virtual void setNormalState();

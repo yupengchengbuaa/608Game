@@ -16,7 +16,7 @@ public:
 
     virtual void initGLContextAttrs();
 
-    /**
+    /**øØ
     @brief    Implement Director and Scene init code here.
     @return true    Initialize success, app continue.
     @return false   Initialize failed, app terminate.
